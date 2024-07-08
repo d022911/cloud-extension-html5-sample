@@ -165,7 +165,7 @@ We recommend using a technical user. However, you can use also use your cloud cr
     - In the **Version** field choose the latest or leave the default
     - In the **Build Retention** fields keep the default values
     
-    ![create CICD Job](./images/cicdjob1.png)
+    ![create CICD Job](./images/cicdjob1a.png)
     
 18. In the **Stages** section do the following:
    - In the **Configuration Mode** field choose **Job Editor**
