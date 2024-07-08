@@ -160,8 +160,8 @@ We recommend using a technical user. However, you can use also use your cloud cr
     
     - In the **Job Name** field enter a name for example, **cloud-extension-html5-mission**
     - In the **Repository** field choose the repository you have created in step 8. 
-    - In the **Branch** field enter the branch of your GitHub repository for example **master**
-    - As **Pipeline** choose **SAP Fiori in the Cloud Foundry environment** 
+    - In the **Branch** field enter the branch of your GitHub repository for example **main**
+    - As **Pipeline** choose **Cloud Foundry Environment** 
     - In the **Version** field choose the latest or leave the default
     - In the **Build Retention** fields keep the default values
     
