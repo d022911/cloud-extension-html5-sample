@@ -113,6 +113,7 @@ Create a simple UI extension application in SAP Business Application Studio usin
 7. In the **Deployment Configuration** screen:
    - Choose **Cloud Foundry** as Target.
    - **Destination Name** is prefilled as **BUPA**.
+   - Select **Yes** to add the application to managed application router.
    - Choose **Finish** to finish the project creation or choose **Next** if you have opted to add **SAP Build Workzone (previously called as Fiori Launchpad**) configuration in step 6.
 
      ![deployment Configuration](./images/develop_16.png)
