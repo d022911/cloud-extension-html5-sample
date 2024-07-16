@@ -83,7 +83,7 @@ Create a simple UI extension application in SAP Business Application Studio usin
    
 4. In the **Data Source and Service Selection**, choose:
    - For the field **Data Source**, choose **Connect to a System** from the drop-down.
-   - For the field **System**, choose the destination which you created for connecting to your on-premise system, in our case choose **s4hpp**.
+   - For the field **System**, choose the destination which you created for connecting to your on-premise system, in our case choose **BUPA**.
    - In the drop-down for the field **Service**, search **ZUI_BP** and select **ZUI_BP_V4 > Z_BUSINESSPARTNER (0001)**.
    - Choose **Next**.
   
@@ -112,8 +112,7 @@ Create a simple UI extension application in SAP Business Application Studio usin
    
 7. In the **Deployment Configuration** screen:
    - Choose **Cloud Foundry** as Target.
-   - **Destination Name** is prefilled as **s4hpp**.
-   - Choose **Yes** for **Add application to managed application router?**.
+   - **Destination Name** is prefilled as **BUPA**.
    - Choose **Finish** to finish the project creation or choose **Next** if you have opted to add **SAP Build Workzone (previously called as Fiori Launchpad**) configuration in step 6.
 
      ![deployment Configuration](./images/develop_16.png)
