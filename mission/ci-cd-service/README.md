@@ -41,11 +41,11 @@ This step describes how to create a Github repository in which you can store the
 ### Add Git repository to HTML5 project
 
 1. Login to your SAP Business Technology Platform (BTP) account. 
-2. Let us open the service **Business Application Studio** by following the steps described in [Open SAP Business Application Studio](../develop/README.md#open-sap-business-application-studio).
+2. Go to Services - Instances and Subscriptions and open **SAP Business Application Studio**.
 3. You would be prompted with a login screen of the default/custom Identity Provider depending on how you have configured.
-4. Login to the Application using your default/custom Identity Provider credentials.
-5. If your workspace is stopped, click **Start** to start your dev space and click the name of your dev space to open your workspace.
-6. Open a new terminal and navigate to project root folder.
+4. If your workspace is stopped, select **Start** to start your dev space. W
+5. Select your workspace and open it.
+6. Open a new terminal and navigate to your project root folder.
 
    ![Open Terminal](./images/openTerminal.png) 
    
