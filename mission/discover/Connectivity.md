@@ -10,4 +10,4 @@ Supports both the SAP BTP, Neo and SAP BTP, Cloud Foundry environment for applic
 For more information, see:
 
 * [SAP Connectivity service](https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/e54cc8fbbb571014beb5caaf6aa31280.html)
-* [Video: SAP HANA Academy – SAP BTP - Security: Principal Propagation](https://www.youtube.com/watch?v=F1rEEqbm6HY)
+
