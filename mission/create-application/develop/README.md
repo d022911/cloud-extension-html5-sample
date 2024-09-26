@@ -73,7 +73,7 @@ Create a simple UI extension application in SAP Business Application Studio usin
 
    ![Create Project](./images/develop_10.png)
     
-2. In the **New Project From Template Wizard**, select **SAP Fiori application**. Choose **Start**.
+2. In the **New Project From Template Wizard**, select **SAP Fiori generator**. Choose **Start**.
 
    ![Choose Template](./images/develop_11.png)
 
