@@ -141,22 +141,18 @@ We recommend using a technical user. However, you can use also use your cloud cr
 12. The Webhook Creation pop-up appears. It provides you with the data you need to define a webhook in GitHub. Copy the **Payload URL** into a text editor of your choice.
    
      ![copy payload URL](./images/webhookdata.png)
-    
-13. Open your GitHub repository and choose **Settings** --> **Webhooks** --> **Add webhook**.
 
-     ![add Web Hook](./images/addWebHook.png)
-
-14. Before creating the CI/CD Job, let us copy the Cloud Foundry API endpoint, Org and Space which is needed for this next step. Choose the Overview page of your SAP BTP subaccount and copy the **API Endpoint** and **Org Name** into a text editor of your choice.  
+13. Before creating the CI/CD Job, let us copy the Cloud Foundry API endpoint, Org and Space which is needed for this next step. Choose the Overview page of your SAP BTP subaccount and copy the **API Endpoint** and **Org Name** into a text editor of your choice.  
 
     ![copy Cloud Data](./images/copyCloudData.png)
     
-15. Choose **Spaces** and copy the space name to a text editor of your choice. 
+14. Choose **Spaces** and copy the space name to a text editor of your choice. 
 
     ![copy Space Name](./images/copySpaceName.png)
 
-16. Go back to the SAP Continous Integration and Delivery service. Choose the **Jobs** tab and **+** icon to create a new job.
+15. Go back to the SAP Continous Integration and Delivery service. Choose the **Jobs** tab and **+** icon to create a new job.
 
-17. In the **Create Job** screen, enter the following inputs :
+16. In the **Create Job** screen, enter the following inputs :
     
     - In the **Job Name** field enter a name for example, **cloud-extension-html5-mission**
     - In the **Repository** field choose the repository you have created in step 8. 
@@ -167,7 +163,7 @@ We recommend using a technical user. However, you can use also use your cloud cr
     
     ![create CICD Job](./images/cicdjob1a.png)
     
-18. In the **Stages** section do the following:
+17. In the **Stages** section do the following:
    - In the **Configuration Mode** field choose **Job Editor**
    - Choose **ON** for the **State** field in the **Build** section
    - In the Malware Scan section choose **ON** for the **State** field. This will force a check for malicious software in your build package. 
@@ -180,21 +176,21 @@ We recommend using a technical user. However, you can use also use your cloud cr
    ![create CICD Job](./images/cicdjob2.png)
    ![create CICD Job](./images/cicdjob2a.png)
     
-19. Open your GitHub repository and choose **Settings** --> **Webhooks** --> **Add webhook**.
+18. Open your GitHub repository and choose **Settings** --> **Webhooks** --> **Add webhook**.
 
     ![add Web Hook](./images/addWebHook.png)
     
-20. For the **Payload URL** and **Secret**, copy and paste the payload URL and secret from step 10.
+19. For the **Payload URL** and **Secret**, copy and paste the payload URL and secret from step 10.
 
     ![add Web Hook](./images/addWebHook1.png)
     
-21. For **Content Type**, select **application/json** and configure the job to be triggered for every **Push** event and choose **Add Webhook**. Now, any new push request to this repository triggers the CI/CD pipeline you have created.
+20. For **Content Type**, select **application/json** and configure the job to be triggered for every **Push** event and choose **Add Webhook**. Now, any new push request to this repository triggers the CI/CD pipeline you have created.
 
-22. To trigger the pipeline manually, select the CI/CD job you have created and choose **Run** as shown below. 
+21. To trigger the pipeline manually, select the CI/CD job you have created and choose **Run** as shown below. 
 
     ![manual trigger Job](./images/triggerbuild.png)
     
-23. You can see the successful log results of **Build** and **Deploy**. To view the full log file, click on the respective tile.
+22. You can see the successful log results of **Build** and **Deploy**. To view the full log file, click on the respective tile.
 	
     ![Build Deploy Results](./images/buildresult.png)   
 
