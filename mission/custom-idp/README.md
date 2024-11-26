@@ -52,7 +52,7 @@ You can manage trust configurations for a global account only if you have create
     
     ![Subject NameID](./images/CustIDP-subjectNameID.png) 
    
-13. Choose basic attribute as E-mail and Choose Save button.
+13. In the **Primary Attribute** section select **Identity Directory** as source and **Email** as value. Choose Save button.
    
     ![Save Subject NameID](./images/CustIDP-subjectNameIDSave.png) 
 
